@@ -1,0 +1,52 @@
+﻿Test Case
+* Game functionality
+* Make sure game win/loss counter iterates correctly
+* Counter should iterate either number depending on the outcome
+* For a win, the counter should iterate the number by 1
+* For a loss, the counter should iterate the number by 1
+
+
+Steps of the test
+* Go to the website
+* Play the game until 1 win and 1 loss
+* Check win/loss counter for accuracy
+
+
+
+
+Post-conditions
+* The win/loss counter should reflect actual wins and losses
+
+
+Bug 1
+Wins iterate as a loss
+
+
+Steps to reproduce
+1. Play game until 1 win and 1 loss
+2. Check win/loss counter
+
+
+Expected result
+* Win/loss counter should reflect games lost and won
+
+
+Actual result
+* Wins iterate the loss counter
+
+
+Bug 2
+See all bots button does not work
+
+
+Steps to reproduce
+1. Navigate to website
+2. Click on see all bots button
+
+
+Expected result
+* All bots to be shown on website
+
+
+Actual result
+* The website crashes
